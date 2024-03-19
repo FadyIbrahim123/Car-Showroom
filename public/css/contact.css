@@ -1,0 +1,102 @@
+
+.navbar {
+    background-color: #4B001E;
+  }
+  
+  .navbar-brand{
+      font-size: 100 vw;
+      font-weight: 500;
+      color: #f7f7f7;
+  }
+  
+  .navbar li a{
+      font-size: 20 vw;
+      color: #f7f7f7;
+  }
+  
+/* Add your custom styles here */
+form {
+  width: 90vw;
+  padding: 2vw;
+  border-radius: 2vw;
+  background: #f7f7f7; /* Light grey background */
+  box-shadow: 0 0 2vw 0 #333;
+  margin: 0 auto;
+}
+.Title h2{
+  text-align: center;
+  color: #4B001E;
+  font-size: 4vw;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.Title p{
+  text-align: center;
+  color: #151716;
+  font-size: 2vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+/* Google Map Styles */
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10vw;
+}
+/* Add this CSS to your existing styles */
+.dbox .icon {
+  width: 60px;
+  height: 60px;
+  background: #4B001E;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.dbox .icon i {
+  font-size: 36px;
+  color: #f7f7f7;
+}
+
+/* Add any additional styles as needed */
+
+
+  footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  background-color: #151716;
+  color: #f7f7f7;
+
+}
+.mb-4{
+  padding-top: 1%;
+}
+.mb-4 p{
+  padding-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+.Copyright{
+  background-color: #151716;
+  position: center;
+  text-align: center;
+  color: #f7f7f7;
+  padding-bottom: 2%;
+  padding-top: 0%;
+}
+.Copyright p{
+  position: center;
+  text-align: center;
+  color: #f7f7f7;
+  text-shadow: #151716;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}

@@ -1,0 +1,149 @@
+
+.navbar {
+  background-color: #4B001E;
+}
+
+.navbar-brand{
+    font-size: 100 vw;
+    font-weight: 500;
+    color: #f7f7f7;
+}
+
+.navbar li a{
+    font-size: 20 vw;
+    color: #f7f7f7;
+}
+
+
+/* Apply general styling to the form */
+form {
+  width: 90vw;
+  padding: 2vw;
+  border-radius: 2vw;
+  background: #f7f7f7; /* Light grey background */
+  box-shadow: 0 0 2vw 0 #333;
+  margin: 0 auto;
+}
+
+/* Style the banner */
+.banner {
+  position: relative;
+  height: 30vw;
+  background-color: #151716;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 2vw;
+  margin-bottom: 2%;
+}
+
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.banner-text {
+  position: relative;
+  z-index: 1;
+}
+
+/* Style input, textarea, select */
+input, textarea, select {
+  margin-bottom: 2vw;
+  border: 0.2vw solid #ccc;
+  border-radius: 0.5vw;
+  width: 90%;
+  padding: 1vw;
+}
+
+/* Style the item */
+.item {
+  position: relative;
+  margin: 2vw 0;
+}
+
+/* Style the labels */
+.item p {
+  padding-left: 2%;
+  border-radius: 1vw;
+  background-color: #4B001E;
+  margin-bottom: 1vw;
+  color: #f7f7f7;
+  font-size: 2vw;
+}
+
+
+/* Style the buttons */
+.btn-block {
+  margin-top: 2vw;
+  text-align: center;
+}
+
+button {
+  width: 20vw;
+  padding: 2vw;
+  border: none;
+  border-radius: 1vw;
+  background: #4B001E; /* Match the color of card-title */
+  font-size: 2vw;
+  color: #f7f7f7; /* Light text color */
+  cursor: pointer;
+}
+
+button:hover {
+  background: #686c6d; /* Match the color of Price */
+}
+
+
+
+
+
+
+
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  background-color: #151716;
+  color: #f7f7f7;
+
+}
+.mb-4{
+  padding-top: 1%;
+}
+.mb-4 p{
+  padding-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+.Copyright{
+  background-color: #151716;
+  position: center;
+  text-align: center;
+  color: #f7f7f7;
+  padding-bottom: 2%;
+  padding-top: 0%;
+}
+.Copyright p{
+  position: center;
+  text-align: center;
+  color: #f7f7f7;
+  text-shadow: #151716;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+
